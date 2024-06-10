@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',sans-serif;
+}
+
+body{
+  /* bg-gradient-to-bl from-[#2c3e50] to-[#000] */
+  /* background:linear-gradient(to bottom left,#272a31,#000000); */
+  background-color: whitesmoke;
+}
+
+.flip{
+  transition: transform 0.6s;
+  transform-origin: preserve-3d;
+}
