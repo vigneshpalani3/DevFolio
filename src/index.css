@@ -10,6 +10,10 @@
   font-family: 'Outfit',sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   /* bg-gradient-to-bl from-[#2c3e50] to-[#000] */
   /* background:linear-gradient(to bottom left,#272a31,#000000); */
