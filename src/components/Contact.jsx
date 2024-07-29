@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='Contact' className='mb-24 mx-auto shadow-lg shadow-indigo-900 bg-white w-full max-w-[360px] rounded-md '>
+    <section id='Contact' className='mb-24 mx-auto shadow-lg shadow-indigo-900 bg-white w-[90%] max-w-[340px] rounded-md'>
       <form onSubmit={onSubmit} className='flex flex-col items-center m-6 gap-5'>
         <h1 className='font-sora text-gray-900 after:content-[""] after:absolute text-xl after:h-[2px] after:w-full relative after:left-0 after:bottom-[-2px] self-start after:bg-blue-600 lg:text-2xl'>Get in touch</h1>
         <input type="text" placeholder='your name' name="name" className='shadow-sm shadow-black/80 px-3 py-2 text-md outline-none rounded-md placeholder:text-blue-600 text-black font-base tracking-wide w-full border-[1px] caret-blue-600 lg:text-lg' required/>

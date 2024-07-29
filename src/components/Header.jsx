@@ -17,7 +17,7 @@ const Header = () => {
     }}
     className='flex justify-between pl-4 pr-3 z-20
     items-center backdrop-blur-2xl fixed top-0 left-0 w-full
-    bg-[rgba(0,0,0,0%)] py-1 md:py-1 lg:py-5'>
+    bg-white py-1 md:py-1 lg:py-5'>
       <h1 className='text-lg font-bold text-slate-800 font-sora'>DevFolio</h1>
       <div className="hidden max-lg:block">
         <Hamburger toggled={isOpen} size={30} color='#222' toggle={setIsOpen} />

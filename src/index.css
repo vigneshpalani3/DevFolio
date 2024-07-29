@@ -15,8 +15,3 @@ body{
   /* background:linear-gradient(to bottom left,#272a31,#000000); */
   background-color: whitesmoke;
 }
-
-.flip{
-  transition: transform 0.6s;
-  transform-origin: preserve-3d;
-}
